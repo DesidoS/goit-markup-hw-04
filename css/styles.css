@@ -311,10 +311,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
   justify-content: center;
   margin-top: 50px;
 }
-.client-item {
 
- 
-}
 .client-item .link {
   display: flex;
   border: 1px solid var(--social-network);
@@ -324,6 +321,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 .client-item .link:hover,
 .client-item .link:hover {
   fill: var(--link-hover-color);
+    border: 1px solid var(--link-hover-color);
 }
 .client-item:not(:last-child) {
   margin-right: 30px;
